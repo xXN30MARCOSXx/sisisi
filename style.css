@@ -1,0 +1,32 @@
+.circulo{
+    width: 400px; /* ancho */
+    height: 400px;/* alto */
+    border-radius: 50%;/* color de fondo */ 
+    background-color: red;/* borde redondo */
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+body{
+    display: flex;/* herramienta flex */
+    justify-content: center;/* para poner cosas en el medio */
+    border: 1px solid;
+    align-items: center;/* para alinear en verical texto */
+    height: 100vh; /* para el tamaño d la pantalla */
+}
+.texto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
